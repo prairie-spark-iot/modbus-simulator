@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  modbus-simulator:
+    build: .
+    container_name: modbus-simulator
+    restart: always
+    ports:
+      - "8000:8000"  # Web interface
+      - "502:502"    # Modbus TCP
+    volumes:
+      - ./logs:/app/logs
+    environment:
+      - TZ=Asia/Shanghai
+      - DEBUG=false
+      - MODBUS_HOST=0.0.0.0
+      - MODBUS_PORT=502
+      - WEB_PORT=8000
+      - WEB_WORKERS=4
+      - LOG_LEVEL=INFO
+    networks:
+      - modbus-net
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+networks:
+  modbus-net:
+    name: modbus-net
+    driver: bridge 
