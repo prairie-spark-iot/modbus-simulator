@@ -9,7 +9,7 @@
 ![WebSocket](https://img.shields.io/badge/WebSocket-000000?style=flat&logo=websocket&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 
-[English](README_EN.md) | [中文](README.md)
+[English](README.md) | [中文](README_CN.md)
 
 [![Star](https://img.shields.io/github/stars/prairie-spark-iot/modbus-simulator?style=social)](https://github.com/prairie-spark-iot/modbus-simulator)
 [![Fork](https://img.shields.io/github/forks/prairie-spark-iot/modbus-simulator?style=social)](https://github.com/prairie-spark-iot/modbus-simulator)
