@@ -1,6 +1,6 @@
-# Modbus设备模拟器 🏭
+# Modbus Device Simulator 🏭
 
-<div align="center">
+<div align="left">
 
 ![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
@@ -11,8 +11,8 @@
 
 [English](README_EN.md) | [中文](README.md)
 
-[![Star](https://img.shields.io/github/stars/yourusername/modbus-simulator?style=social)](https://github.com/yourusername/modbus-simulator)
-[![Fork](https://img.shields.io/github/forks/yourusername/modbus-simulator?style=social)](https://github.com/yourusername/modbus-simulator)
+[![Star](https://img.shields.io/github/stars/prairie-spark-iot/modbus-simulator?style=social)](https://github.com/prairie-spark-iot/modbus-simulator)
+[![Fork](https://img.shields.io/github/forks/prairie-spark-iot/modbus-simulator?style=social)](https://github.com/prairie-spark-iot/modbus-simulator)
 
 <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows">
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
@@ -22,97 +22,97 @@
 
 ---
 
-## 📋 项目简介
+## 📋 Project Introduction
 
-一个功能强大的Modbus设备模拟器，专为工业自动化测试、教学演示和系统集成测试设计。项目提供完整的Modbus服务器、Web监控界面和实时数据更新功能。
+A powerful Modbus device simulator designed for industrial automation testing, teaching demonstrations, and system integration testing. This project provides a complete solution including Modbus server, Web monitoring interface, and real-time data updates.
 
-<div align="center">
-<img src="https://img.shields.io/badge/工业自动化-FF6B6B?style=for-the-badge" alt="工业自动化">
-<img src="https://img.shields.io/badge/教学演示-4ECDC4?style=for-the-badge" alt="教学演示">
-<img src="https://img.shields.io/badge/系统集成-45B7D1?style=for-the-badge" alt="系统集成">
+<div align="left">
+<img src="https://img.shields.io/badge/Industrial_Automation-FF6B6B?style=for-the-badge" alt="Industrial Automation">
+<img src="https://img.shields.io/badge/Teaching_Demo-4ECDC4?style=for-the-badge" alt="Teaching Demo">
+<img src="https://img.shields.io/badge/System_Integration-45B7D1?style=for-the-badge" alt="System Integration">
 </div>
 
-## ✨ 功能特点
+## ✨ Key Features
 
-<div align="center">
+<div align="left">
 
-| 特性 | 描述 | 图标 |
-|------|------|------|
-| 🚀 高性能 | 基于异步IO实现，支持高并发连接 | ⚡ |
-| 🔄 实时性 | WebSocket实时数据推送，毫秒级更新 | 🕒 |
-| 📊 可视化 | 直观的Web界面，实时数据展示 | 📈 |
-| 🔌 多设备 | 支持7种常见工业设备模拟 | 🏭 |
-| 🛠 可扩展 | 模块化设计，易于添加新设备 | 🔧 |
-| 🐳 Docker支持 | 支持Docker部署，一键启动 | 🐳 |
+| Feature | Description | Icon |
+|---------|-------------|------|
+| 🚀 High Performance | Async IO implementation, high concurrency support | ⚡ |
+| 🔄 Real-time | WebSocket data push, millisecond updates | 🕒 |
+| 📊 Visualization | Intuitive Web interface, real-time data display | 📈 |
+| 🔌 Multi-device | Support for 7 common industrial devices | 🏭 |
+| 🛠 Extensible | Modular design, easy to add new devices | 🔧 |
+| 🐳 Docker Support | Supports Docker deployment, one-click startup | 🐳 |
 
 </div>
 
-### 核心功能
+### Core Features
 
 <details>
-<summary>🚀 高性能</summary>
+<summary>🚀 High Performance</summary>
 
-- 基于异步IO实现
-- 支持高并发连接
-- 低延迟数据更新
-- 优化的数据处理流程
+- Async IO implementation
+- High concurrency support
+- Low latency data updates
+- Optimized data processing
 </details>
 
 <details>
-<summary>🔄 实时性</summary>
+<summary>🔄 Real-time</summary>
 
-- WebSocket实时数据推送
-- 毫秒级数据更新
-- 多客户端同步
-- 可靠的数据传输
+- WebSocket real-time data push
+- Millisecond-level updates
+- Multi-client synchronization
+- Reliable data transmission
 </details>
 
 <details>
-<summary>📊 可视化</summary>
+<summary>📊 Visualization</summary>
 
-- 直观的Web界面
-- 实时数据展示
-- 设备状态监控
-- 数据趋势分析
+- Intuitive Web interface
+- Real-time data display
+- Device status monitoring
+- Data trend analysis
 </details>
 
 <details>
-<summary>🐳 Docker支持</summary>
+<summary>🐳 Docker Support</summary>
 
-- 一键部署
-- 环境隔离
-- 快速启动
-- 易于维护
+- One-click deployment
+- Environment isolation
+- Quick startup
+- Easy maintenance
 </details>
 
-## 🚀 快速开始
+## 🚀 Quick Start
 
-### 环境要求
+### Requirements
 
-<div align="center">
+<div align="left">
 
-| 要求 | 说明 |
-|------|------|
+| Requirement | Description |
+|-------------|-------------|
 | Python | 3.8+ |
-| 操作系统 | Windows/Linux/MacOS |
-| 网络 | 支持TCP/IP协议 |
-| 内存 | 建议 2GB+ |
-| 存储 | 建议 1GB+ |
-| Docker | 可选，用于容器化部署 |
+| OS | Windows/Linux/MacOS |
+| Network | TCP/IP support |
+| Memory | 2GB+ recommended |
+| Storage | 1GB+ recommended |
+| Docker | Optional, for containerized deployment |
 
 </div>
 
-### 安装步骤
+### Installation
 
-#### 方式一：直接运行
+#### Method 1: Direct Run
 
-1. **克隆项目**
+1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/modbus-simulator.git
+git clone https://github.com/prairie-spark-iot/modbus-simulator.git
 cd modbus-simulator
 ```
 
-2. **创建虚拟环境**
+2. **Create virtual environment**
 ```bash
 # Windows
 python -m venv .venv
@@ -123,262 +123,262 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
-3. **安装依赖**
+3. **Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-4. **运行项目**
+4. **Run the project**
 ```bash
 python main.py
 ```
 
-#### 方式二：Docker部署
+#### Method 2: Docker Deployment
 
-1. **克隆项目**
+1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/modbus-simulator.git
+git clone https://github.com/prairie-spark-iot/modbus-simulator.git
 cd modbus-simulator
 ```
 
-2. **构建并启动容器**
+2. **Build and start container**
 ```bash
-# 使用docker-compose（推荐）
+# Using docker-compose (recommended)
 docker-compose up -d
 
-# 或使用docker命令
+# Or using docker commands
 docker build -t modbus-simulator .
 docker run -d -p 8000:8000 -p 502:502 --name modbus-simulator modbus-simulator
 ```
 
-3. **查看容器状态**
+3. **Check container status**
 ```bash
 docker-compose ps
-# 或
+# or
 docker ps
 ```
 
-4. **查看日志**
+4. **View logs**
 ```bash
 docker-compose logs -f
-# 或
+# or
 docker logs -f modbus-simulator
 ```
 
-5. **停止服务**
+5. **Stop service**
 ```bash
 docker-compose down
-# 或
+# or
 docker stop modbus-simulator
 ```
 
-### 访问方式
+### Access
 
-<div align="center">
+<div align="left">
 
-| 服务 | 地址 | 说明 |
-|------|------|------|
-| 🌐 Web界面 | http://localhost:8000 | 设备监控界面 |
-| 📡 Modbus服务器 | localhost:502 | Modbus通信服务 |
-| 📚 API文档 | http://localhost:8000/docs | API接口文档 |
-
-</div>
-
-## 📦 设备支持
-
-<div align="center">
-
-| 设备类型 | 从站ID | 主要功能 | 图标 |
-|---------|--------|----------|------|
-| 温湿度传感器 | 1 | 温度、湿度数据模拟 | 🌡️ |
-| 电能表 | 2 | 电压、电流、功率、电能数据 | ⚡ |
-| 空调控制器 | 3 | 温度、模式、开关状态控制 | ❄️ |
-| 空气质量传感器 | 4 | PM2.5、CO2、TVOC等数据 | 🌫️ |
-| PLC/IO模块 | 5 | 数字输入输出、模拟量输入输出 | 🔌 |
-| 智能灯控制器 | 6 | 亮度、色温、开关控制 | 💡 |
-| 智能插座 | 7 | 功率、开关状态、定时控制 | 🔋 |
+| Service | Address | Description |
+|---------|---------|-------------|
+| 🌐 Web Interface | http://localhost:8000 | Device monitoring interface |
+| 📡 Modbus Server | localhost:502 | Modbus communication service |
+| 📚 API Docs | http://localhost:8000/docs | API documentation |
 
 </div>
 
-## 🏗 系统架构
+## 📦 Device Support
 
-### 技术栈
+<div align="left">
 
-<div align="center">
-
-| 层级 | 技术 | 说明 |
-|------|------|------|
-| 后端 | Python 3.8+ | 核心编程语言 |
-| 后端 | pymodbus | Modbus协议实现 |
-| 后端 | FastAPI | Web框架 |
-| 后端 | WebSocket | 实时通信 |
-| 后端 | asyncio | 异步处理 |
-| 前端 | HTML5/CSS3 | 界面结构 |
-| 前端 | JavaScript | 交互逻辑 |
-| 前端 | Bootstrap 5 | UI框架 |
-| 前端 | Chart.js | 数据可视化 |
+| Device Type | Slave ID | Main Features | Icon |
+|-------------|----------|---------------|------|
+| Temperature & Humidity Sensor | 1 | Temperature, humidity data | 🌡️ |
+| Energy Meter | 2 | Voltage, current, power, energy | ⚡ |
+| AC Controller | 3 | Temperature, mode, switch status | ❄️ |
+| Air Quality Sensor | 4 | PM2.5, CO2, TVOC data | 🌫️ |
+| PLC/IO Module | 5 | Digital/Analog I/O | 🔌 |
+| Smart Light Controller | 6 | Brightness, color temp, switch | 💡 |
+| Smart Socket | 7 | Power, switch status, timing | 🔋 |
 
 </div>
 
-### 系统分层
+## 🏗 System Architecture
+
+### Tech Stack
+
+<div align="left">
+
+| Layer | Technology | Description |
+|-------|------------|-------------|
+| Backend | Python 3.8+ | Core language |
+| Backend | pymodbus | Modbus implementation |
+| Backend | FastAPI | Web framework |
+| Backend | WebSocket | Real-time communication |
+| Backend | asyncio | Async processing |
+| Frontend | HTML5/CSS3 | Interface structure |
+| Frontend | JavaScript | Interaction logic |
+| Frontend | Bootstrap 5 | UI framework |
+| Frontend | Chart.js | Data visualization |
+
+</div>
+
+### System Layers
 
 <details>
-<summary>1. Modbus服务器层</summary>
+<summary>1. Modbus Server Layer</summary>
 
-- Modbus协议通信
-- 设备数据管理
-- 读写请求处理
-- 数据验证
+- Modbus protocol communication
+- Device data management
+- Read/write request handling
+- Data validation
 </details>
 
 <details>
-<summary>2. 数据管理层</summary>
+<summary>2. Data Management Layer</summary>
 
-- 数据生成和模拟
-- 缓存机制
-- 状态管理
-- 数据持久化
+- Data generation and simulation
+- Cache mechanism
+- State management
+- Data persistence
 </details>
 
 <details>
-<summary>3. Web服务层</summary>
+<summary>3. Web Service Layer</summary>
 
 - RESTful API
-- WebSocket服务
-- 静态资源服务
-- 安全认证
+- WebSocket service
+- Static resource service
+- Security authentication
 </details>
 
 <details>
-<summary>4. 前端展示层</summary>
+<summary>4. Frontend Layer</summary>
 
-- 实时数据展示
-- 设备控制界面
-- 状态监控
-- 数据可视化
+- Real-time data display
+- Device control interface
+- Status monitoring
+- Data visualization
 </details>
 
-## 📚 开发文档
+## 📚 Development Documentation
 
-### 项目结构
+### Project Structure
 ```
 modbus-simulator/
-├── src/                    # 源代码目录
-│   ├── core/              # 核心功能模块
-│   │   ├── config.py      # 配置管理
-│   │   └── logger.py      # 日志管理
-│   ├── modbus/            # Modbus 相关模块
-│   │   ├── modbus_cache.py        # 数据缓存
-│   │   └── modbus_data_generator.py # 数据生成
-│   ├── web/               # Web 相关模块
-│   │   ├── modbus_client.py      # Modbus 客户端
-│   │   ├── routes.py             # 路由定义
-│   │   ├── tasks.py              # 后台任务
-│   │   └── websocket_manager.py  # WebSocket 管理
-│   ├── __init__.py        # 包初始化
-│   └── main.py            # 主程序入口
-├── static/                # 静态资源
-│   ├── css/              # CSS 样式文件
-│   │   └── style.css     # 主样式文件
-│   └── js/               # JavaScript 文件
-│       └── app.js        # 主脚本文件
-├── templates/             # 模板文件
-│   └── index.html        # 主页面模板
-├── logs/                  # 日志目录
-├── docs/                  # 文档目录
-├── .editorconfig         # 编辑器配置
-├── .gitignore            # Git 忽略文件
-├── .dockerignore         # Docker 忽略文件
-├── .pre-commit-config.yaml # 预提交钩子配置
-├── docker-compose.yml    # Docker Compose 配置
-├── Dockerfile            # Docker 构建文件
-├── LICENSE               # 许可证文件
-├── mypy.ini             # 类型检查配置
-├── pyproject.toml       # 项目配置
-├── README.md            # 项目文档（中文）
-├── README_EN.md         # 项目文档（英文）
-├── requirements.txt     # 依赖列表
-└── uv.lock              # 依赖锁定文件
+├── src/                    # Source code directory
+│   ├── core/              # Core functionality modules
+│   │   ├── config.py      # Configuration management
+│   │   └── logger.py      # Logging management
+│   ├── modbus/            # Modbus related modules
+│   │   ├── modbus_cache.py        # Data caching
+│   │   └── modbus_data_generator.py # Data generation
+│   ├── web/               # Web related modules
+│   │   ├── modbus_client.py      # Modbus client
+│   │   ├── routes.py             # Route definitions
+│   │   ├── tasks.py              # Background tasks
+│   │   └── websocket_manager.py  # WebSocket management
+│   ├── __init__.py        # Package initialization
+│   └── main.py            # Main program entry
+├── static/                # Static resources
+│   ├── css/              # CSS style files
+│   │   └── style.css     # Main style file
+│   └── js/               # JavaScript files
+│       └── app.js        # Main script file
+├── templates/             # Template files
+│   └── index.html        # Main page template
+├── logs/                  # Log directory
+├── docs/                  # Documentation directory
+├── .editorconfig         # Editor configuration
+├── .gitignore            # Git ignore file
+├── .dockerignore         # Docker ignore file
+├── .pre-commit-config.yaml # Pre-commit hooks configuration
+├── docker-compose.yml    # Docker compose configuration
+├── Dockerfile            # Docker build file
+├── LICENSE               # License file
+├── mypy.ini             # Type checking configuration
+├── pyproject.toml       # Project configuration
+├── README.md            # Project documentation (Chinese)
+├── README_EN.md         # Project documentation (English)
+├── requirements.txt     # Dependencies list
+└── uv.lock              # Dependencies lock file
 ```
 
-## ❓ 常见问题
+## ❓ FAQ
 
 <details>
-<summary>连接问题</summary>
+<summary>Connection Issues</summary>
 
-**Q: 无法连接到Modbus服务器？**
-- 检查端口502是否被占用
-- 确认防火墙设置
-- 验证网络连接
+**Q: Cannot connect to Modbus server?**
+- Check if port 502 is available
+- Verify firewall settings
+- Check network connection
 </details>
 
 <details>
-<summary>显示问题</summary>
+<summary>Display Issues</summary>
 
-**Q: Web界面无法显示数据？**
-- 检查WebSocket连接
-- 确认设备ID配置正确
-- 查看浏览器控制台错误
+**Q: Web interface not showing data?**
+- Check WebSocket connection
+- Verify device ID configuration
+- Check browser console
 </details>
 
 <details>
-<summary>性能问题</summary>
+<summary>Performance Issues</summary>
 
-**Q: 数据更新不及时？**
-- 检查设备更新间隔设置
-- 确认WebSocket连接状态
-- 查看服务器负载
+**Q: Data updates not timely?**
+- Check device update interval
+- Verify WebSocket connection
+- Check server load
 </details>
 
-## ⚠️ 注意事项
+## ⚠️ Notes
 
-<div align="center">
+<div align="left">
 
-| 序号 | 注意事项 | 说明 |
-|------|----------|------|
-| 1 | 端口占用 | 确保端口502未被占用 |
-| 2 | 防火墙 | 检查防火墙设置 |
-| 3 | Python环境 | 确保Python环境正确配置 |
-| 4 | 虚拟环境 | 建议在虚拟环境中运行 |
-| 5 | 日志检查 | 定期检查日志文件 |
-| 6 | 数据安全 | 注意数据安全性 |
+| No. | Note | Description |
+|-----|------|-------------|
+| 1 | Port | Ensure port 502 is available |
+| 2 | Firewall | Check firewall settings |
+| 3 | Python | Ensure correct Python environment |
+| 4 | Virtual Env | Run in virtual environment |
+| 5 | Logs | Check logs regularly |
+| 6 | Security | Pay attention to data security |
 
 </div>
 
-## 📄 许可证
+## 📄 License
 
-本项目采用 MIT 许可证，详见 [LICENSE](LICENSE) 文件。
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👥 贡献指南
+## 👥 Contributing
 
-欢迎提交Issue和Pull Request来帮助改进项目。在提交代码前，请确保：
+We welcome contributions! Please ensure:
 
-1. 代码符合项目规范
-2. 添加必要的测试
-3. 更新相关文档
-4. 提供清晰的提交信息
+1. Code follows project standards
+2. Add necessary tests
+3. Update documentation
+4. Provide clear commit messages
 
-## 📞 联系方式
+## 📞 Contact
 
-<div align="center">
+<div align="left">
 
-| 方式 | 内容 |
-|------|------|
-| 作者 | Your Name |
-| 邮箱 | your.email@example.com |
-| GitHub | [yourusername](https://github.com/yourusername) |
-| 项目地址 | [modbus-simulator](https://github.com/yourusername/modbus-simulator) |
+| Method | Content |
+|--------|---------|
+| Author | Your Name |
+| Email | your.email@example.com |
+| GitHub | [prairie-spark-iot](https://github.com/prairie-spark-iot) |
+| Project | [modbus-simulator](https://github.com/prairie-spark-iot/modbus-simulator) |
 
 </div>
 
-## 🙏 致谢
+## 🙏 Acknowledgments
 
-感谢所有为本项目做出贡献的开发者。
+Thanks to all contributors!
 
 ---
 
-<div align="center">
+<div align="left">
 
-**如果这个项目对您有帮助，欢迎给个 ⭐️ Star 支持一下！**
+**If this project helps you, please give it a ⭐️ Star!**
 
 </div> 
