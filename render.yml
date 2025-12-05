@@ -5,7 +5,7 @@ services:
     repo: https://github.com/prairie-spark-iot/modbus-simulator
     branch: main
     buildCommand: pip install -r requirements.txt
-    startCommand: uvicorn src.main:app --host 0.0.0.0 --port $PORT
+    startCommand: python -m src.main
     envVars:
       - key: PYTHON_VERSION
         value: 3.12
