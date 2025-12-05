@@ -10,7 +10,7 @@ services:
       - key: PYTHON_VERSION
         value: 3.12
       - key: DEBUG
-        value: true  # 可选，项目自定义
-    plan: free  # 免费层
-    autoDeploy: true  # Git push 自动部署
-    healthCheckPath: /  # 健康检查路径
+        value: true
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /
