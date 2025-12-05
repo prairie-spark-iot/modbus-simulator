@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: modbus-simulator
+    runtime: python
+    repo: https://github.com/prairie-spark-iot/modbus-simulator
+    branch: main
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn src.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12
+      - key: DEBUG
+        value: true  # 可选，项目自定义
+    plan: free  # 免费层
+    autoDeploy: true  # Git push 自动部署
+    healthCheckPath: /  # 健康检查路径

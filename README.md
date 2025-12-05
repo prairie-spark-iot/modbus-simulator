@@ -130,7 +130,7 @@ pip install -r requirements.txt
 
 4. **Run the project**
 ```bash
-python main.py
+python -m src.main
 ```
 
 #### Method 2: Docker Deployment
